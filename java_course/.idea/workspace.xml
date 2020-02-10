@@ -2,8 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="100880b7-4849-43be-bebd-5ad7d6f46762" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/chapter4/AddNumbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter4/AverageTestScores.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter4/Cashier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter4/GrossPayInputValidation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter4/LetterSearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter4/RollTheDieGame.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chapter3/ChangeForADollar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter3/ChangeForADollar.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,13 +45,13 @@
       <recent name="chapter3" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ChangeForADollar">
-    <configuration name="ChangeForADollar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter3.ChangeForADollar" />
+  <component name="RunManager" selected="Application.LetterSearch">
+    <configuration name="AddNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter4.AddNumbers" />
       <module name="java_course" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chapter3.*" />
+          <option name="PATTERN" value="chapter4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -54,12 +59,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GradeMessage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter3.GradeMessage" />
+    <configuration name="AverageTestScores" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter4.AverageTestScores" />
       <module name="java_course" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chapter3.*" />
+          <option name="PATTERN" value="chapter4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -67,12 +72,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoanQualifier" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter3.LoanQualifier" />
+    <configuration name="Cashier" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter4.Cashier" />
       <module name="java_course" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chapter3.*" />
+          <option name="PATTERN" value="chapter4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -80,12 +85,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SalaryCalculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter3.SalaryCalculator" />
+    <configuration name="GrossPayInputValidation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter4.GrossPayInputValidation" />
       <module name="java_course" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chapter3.*" />
+          <option name="PATTERN" value="chapter4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -93,12 +98,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestResults" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter3.TestResults" />
+    <configuration name="LetterSearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter4.LetterSearch" />
       <module name="java_course" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chapter3.*" />
+          <option name="PATTERN" value="chapter4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -108,11 +113,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ChangeForADollar" />
-        <item itemvalue="Application.GradeMessage" />
-        <item itemvalue="Application.TestResults" />
-        <item itemvalue="Application.SalaryCalculator" />
-        <item itemvalue="Application.LoanQualifier" />
+        <item itemvalue="Application.LetterSearch" />
+        <item itemvalue="Application.AverageTestScores" />
+        <item itemvalue="Application.Cashier" />
+        <item itemvalue="Application.AddNumbers" />
+        <item itemvalue="Application.GrossPayInputValidation" />
       </list>
     </recent_temporary>
   </component>
@@ -142,34 +147,50 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="987" y="265" width="424" height="479" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1581150885625" />
-    <state width="1358" height="217" key="GridCell.Tab.0.bottom" timestamp="1581259897511">
-      <screen x="0" y="0" width="1600" height="900" />
+    <state width="917" height="275" key="GridCell.Tab.0.bottom" timestamp="1581372970844">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1358" height="217" key="GridCell.Tab.0.bottom/0.0.1600.900@0.0.1600.900" timestamp="1581259897511" />
-    <state width="1358" height="263" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1581208882967" />
-    <state width="1358" height="217" key="GridCell.Tab.0.center" timestamp="1581259897511">
-      <screen x="0" y="0" width="1600" height="900" />
+    <state width="917" height="275" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1581372970844" />
+    <state width="917" height="275" key="GridCell.Tab.0.center" timestamp="1581372970843">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1358" height="217" key="GridCell.Tab.0.center/0.0.1600.900@0.0.1600.900" timestamp="1581259897511" />
-    <state width="1358" height="263" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1581208882967" />
-    <state width="1358" height="217" key="GridCell.Tab.0.left" timestamp="1581259897510">
-      <screen x="0" y="0" width="1600" height="900" />
+    <state width="917" height="275" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1581372970843" />
+    <state width="917" height="275" key="GridCell.Tab.0.left" timestamp="1581372970842">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1358" height="217" key="GridCell.Tab.0.left/0.0.1600.900@0.0.1600.900" timestamp="1581259897510" />
-    <state width="1358" height="263" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1581208882966" />
-    <state width="1358" height="217" key="GridCell.Tab.0.right" timestamp="1581259897511">
-      <screen x="0" y="0" width="1600" height="900" />
+    <state width="917" height="275" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1581372970842" />
+    <state width="917" height="275" key="GridCell.Tab.0.right" timestamp="1581372970843">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1358" height="217" key="GridCell.Tab.0.right/0.0.1600.900@0.0.1600.900" timestamp="1581259897511" />
-    <state width="1358" height="263" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1581208882967" />
+    <state width="917" height="275" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1581372970843" />
+    <state width="917" height="341" key="GridCell.Tab.1.bottom" timestamp="1581370873602">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="917" height="341" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1581370873602" />
+    <state width="917" height="341" key="GridCell.Tab.1.center" timestamp="1581370873602">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="917" height="341" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1581370873602" />
+    <state width="917" height="341" key="GridCell.Tab.1.left" timestamp="1581370873601">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="917" height="341" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1581370873601" />
+    <state width="917" height="341" key="GridCell.Tab.1.right" timestamp="1581370873602">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="917" height="341" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1581370873602" />
     <state x="687" y="84" width="1024" height="840" key="SettingsEditor" timestamp="1581150735209">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="687" y="84" width="1024" height="840" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1581150735209" />
-    <state x="536" y="300" key="com.intellij.ide.util.TipDialog" timestamp="1581257329505">
-      <screen x="0" y="0" width="1600" height="900" />
+    <state x="643" y="347" key="com.intellij.ide.util.TipDialog" timestamp="1581363566723">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="536" y="300" key="com.intellij.ide.util.TipDialog/0.0.1600.900@0.0.1600.900" timestamp="1581257329505" />
-    <state x="643" y="347" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1581253700331" />
+    <state x="643" y="347" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1581363566723" />
   </component>
 </project>
