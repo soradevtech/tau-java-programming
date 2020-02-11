@@ -4,3 +4,4 @@ Chapter files at: https://github.com/angiejones/java-programming
 
 To do:
 Ch. 4 Roll the Die game
+Ch. 5 Phone Bill Calculator
