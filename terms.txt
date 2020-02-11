@@ -1,0 +1,65 @@
+magic number
+
+instantiate
+
+method overloading
+
+constant - name in all caps, uses final modifier
+
+final
+
+static
+
+package
+
+class
+
+import
+
+equals()
+
+encapsulation
+
+private
+
+public
+
+protected
+
+access modifier
+
+non-access modifier
+
+class head
+
+class body
+
+void
+
+main function
+
+binary search
+
+sequential search
+
+JavaDoc
+
+enhanced loop
+
+signature
+
+accumulator
+
+dynamic array length
+
+println/print/String.format(String, value)
+
+string/array length attribute - sometimes it has a ()?
+
+type inference - limited ability to use var keyword since Java 10
+
+primitive data types - also contains methods specific to the data type
+
+wrapper classes - contain useful methods beyond primitive data type methods
+
+Character/String/StringBuilder class type differences
