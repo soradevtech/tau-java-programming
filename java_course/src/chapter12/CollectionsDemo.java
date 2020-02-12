@@ -3,14 +3,15 @@ package chapter12;
 import java.util.*;
 
 public class CollectionsDemo {
-    public static void main(String[] args){
+
+    public static void main(String[] args) {
         setDemo();
         listDemo();
         queueDemo();
         mapDemo();
     }
 
-    public static void setDemo(){
+    public static void setDemo() {
         Set fruit = new HashSet();
         fruit.add("apple");
         fruit.add("lemon");
@@ -18,11 +19,11 @@ public class CollectionsDemo {
         fruit.add("orange");
         fruit.add("lemon");
 
-        System.out.println(fruit.size()); //4
-        System.out.println(fruit); //[banana, orange, apple, lemon]
+        System.out.println(fruit.size());
+        System.out.println(fruit);
     }
 
-    public static void listDemo(){
+    public static void listDemo() {
         List fruit = new ArrayList();
         fruit.add("apple");
         fruit.add("lemon");
@@ -30,12 +31,12 @@ public class CollectionsDemo {
         fruit.add("orange");
         fruit.add("lemon");
 
-        System.out.println(fruit.get(2)); //banana
-        System.out.println(fruit.size()); //5
-        System.out.println(fruit); //[apple, lemon, banana, orange, lemon]
+        System.out.println(fruit.get(2));
+        System.out.println(fruit.size());
+        System.out.println(fruit);
     }
 
-    public static void queueDemo(){
+    public static void queueDemo() {
         Queue fruit = new LinkedList();
         fruit.add("apple");
         fruit.add("lemon");
@@ -43,16 +44,15 @@ public class CollectionsDemo {
         fruit.add("orange");
         fruit.add("lemon");
 
-        System.out.println(fruit.size()); //5
-        System.out.println(fruit); //[apple, lemon, banana, orange, lemon]
+        System.out.println(fruit.size());
+        System.out.println(fruit);
 
         fruit.remove();
-        System.out.println(fruit);//[lemon, banana, orange, lemon]
-
-        System.out.println(fruit.peek());//lemon
+        System.out.println(fruit);
+        System.out.println(fruit.peek());
     }
 
-    public static void mapDemo(){
+    public static void mapDemo() {
         Map fruitCalories = new HashMap();
         fruitCalories.put("apple", 95);
         fruitCalories.put("lemon", 20);
@@ -60,36 +60,36 @@ public class CollectionsDemo {
         fruitCalories.put("orange", 45);
         fruitCalories.put("lemon", 17);
 
-        System.out.println(fruitCalories.size()); //4
-        System.out.println(fruitCalories); //{banana=105, orange=45, apple=95, lemon=17}
+        System.out.println(fruitCalories.size());
+        System.out.println(fruitCalories);
 
-        System.out.println(fruitCalories.get("lemon"));//17
+        System.out.println(fruitCalories.get("lemon"));
 
-        System.out.println(fruitCalories.entrySet());//[banana=105, orange=45, apple=95, lemon=17]
+        System.out.println(fruitCalories.entrySet());
 
         fruitCalories.remove("orange");
-        System.out.println(fruitCalories);//{banana=105, apple=95, lemon=17}
+        System.out.println(fruitCalories);
     }
 
-    public void print(Collection<String> collection){
+    public void print(Collection<String> collection) {
         var i = collection.iterator();
-        while(i.hasNext()){
+        while(i.hasNext()) {
             System.out.println(i.next());
         }
 
-        for(String item : collection){
+        for(String item : collection) {
             System.out.println(item);
         }
 
         collection.forEach(System.out::println);
     }
 
-    public void print(Map<String, Integer> map){
-        for(var entry : map.entrySet()){
+    public void print(Map<String, Integer> map) {
+        for(var entry : map.entrySet()) {
             System.out.println(entry.getValue());
         }
 
         map.forEach(
-                (k,v)->System.out.println("Fruit: " + k + ", Calories: " + v));
+                (k, v) -> System.out.println("Fruit: " + k + ", Calories: " + v));
     }
 }

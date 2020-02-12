@@ -2,28 +2,39 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="100880b7-4849-43be-bebd-5ad7d6f46762" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/chapter10/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter10/Cat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter10/Dog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter10/Zoo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter11/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter11/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter11/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter11/Rectangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter11/Shape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter11/ShapeTester.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter12/CollectionsDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter13/ExceptionHandling.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter9/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter9/InheritanceTester.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter9/Mother.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter9/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter9/Rectangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter9/Square.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter9/Woman.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter06/MonthConverter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../terms.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../terms.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter12/CollectionsDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter12/CollectionsDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter2/GrossPayCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter02/GrossPayCalculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter2/MadLibs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter02/MadLibs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter3/ChangeForADollar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter03/ChangeForADollar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter3/GradeMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter03/GradeMessage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter3/LoanQualifier.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter03/LoanQualifier.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter3/LogicalOperatorLoanQualifier.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter03/LogicalOperatorLoanQualifier.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter3/QuotaCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter03/QuotaCalculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter3/SalaryCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter03/SalaryCalculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter3/TestResults.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter03/TestResults.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter4/AddNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter04/AddNumbers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter4/AverageTestScores.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter04/AverageTestScores.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter4/Cashier.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter04/Cashier.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter4/GrossPayInputValidation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter04/GrossPayInputValidation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter4/LetterSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter04/LetterSearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter5/Greetings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter05/Greetings.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter5/InstantCreditCheck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter05/InstantCreditCheck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter6/HomeAreaCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter06/HomeAreaCalculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter6/HomeAreaCalculatorRedo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter06/HomeAreaCalculatorRedo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter6/Month.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter06/Month.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter6/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter06/Rectangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter7/Grades.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter07/Grades.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter7/LotteryTicket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter07/LotteryTicket.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter8/TextProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter08/TextProcessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter9/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter09/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter9/InheritanceTester.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter09/InheritanceTester.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter9/Mother.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter09/Mother.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter9/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter09/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter9/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter09/Rectangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter9/Square.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter09/Square.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter9/Woman.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter09/Woman.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,11 +86,11 @@
       </method>
     </configuration>
     <configuration name="InheritanceTester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter9.InheritanceTester" />
+      <option name="MAIN_CLASS_NAME" value="chapter09.InheritanceTester" />
       <module name="java_course" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chapter9.*" />
+          <option name="PATTERN" value="chapter09.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -101,11 +112,11 @@
       </method>
     </configuration>
     <configuration name="TextProcessor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter8.TextProcessor" />
+      <option name="MAIN_CLASS_NAME" value="chapter08.TextProcessor" />
       <module name="java_course" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chapter8.*" />
+          <option name="PATTERN" value="chapter08.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
