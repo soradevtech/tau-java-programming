@@ -30,6 +30,8 @@ access modifier
 
 non-access modifier
 
+reserved word
+
 class head
 
 class body
@@ -63,3 +65,25 @@ primitive data types - also contains methods specific to the data type
 wrapper classes - contain useful methods beyond primitive data type methods
 
 Character/String/StringBuilder class type differences
+
+4 OOP principles - Inheritance, Polymorphism, Abstraction, Encapsulation
+
+superclass & subclass/parent class & child class
+
+super()
+
+chain of inheritance
+
+instanceof
+
+interface (incl. default keyword (since java 8)) 
+
+Collections
+
+Hashmaps
+
+diamond operator <>
+
+exceptions & exception object - printStackTrace
+
+try (w/ resources) & catch & finally
