@@ -8,7 +8,6 @@ Ch. 5 Phone Bill Calculator
 Ch. 6 Phone Bill Calculator #2
 Ch. 7 Day of the Week
 Ch. 8 Password Validator
-Ch. 6 Overload lesson file
 Ch. 9 Cake
 Ch. 10 Market
 Ch. 11 Farm
