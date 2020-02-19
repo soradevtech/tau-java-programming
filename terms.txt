@@ -1,89 +1,95 @@
-magic number
+magic number - A number used in a block of code without explanation
 
-instantiate
+instantiate - creation of an object from a class
 
-method overloading
+method overloading - using methods with the same name but different parameter types or different numbers of parameters in order to be called with the same name
 
-constant - name in all caps, uses final modifier
+constant - variable with the name in all caps, uses static and final modifiers in order to keep itself from being modified
 
-final
+final - modifier keyword that keeps contents from being modified
 
-static
+member - individual part of a class, such as an attribute, method, or constructor
 
-package
+static - member modifier that is only accessed and modified via its originating class. Member can be called without instatiating an object
 
-class
+package - group of related classes in a project. there are built-in packages as well as user-defined ones
 
-import
+class - a user defined blueprint or prototype from which objects are created
 
-equals()
+import - keyword that allows the user to use classes from user-defined and built-in packages
 
-encapsulation
+equals() - method to compare the content of two strings. case insensitive version is equalsIgnoreCase
 
-private
+encapsulation - practice of putting together the data and methods for that data in one place (a class). getter and setter methods are used to access and edit the data
 
-public
+private - access modifier that states a member can only can be accessed within its declared class
 
-protected
+public - access modifier that states a member can can be accessed by any class
 
-access modifier
+protected - access modifier that states a member can be accessed within the same package and subclasses
 
-non-access modifier
+access modifier - a keyword that helps to restrict the scope of a class, constructor, variable, method or data member
 
-reserved word
+non-access modifier - keyword for classes, etc. that sets functionalities outside of access
 
-class head
+reserved word - Java reserved words are keywords that are reserved by Java functions or other uses that cannot be used as identifiers (e.g., variable names, function names, class names). If a reserved word was used as a variable, you would get an error or unexpected result.
 
-class body
+head - the part of an method that contains the modifier keywords, method name and parameter list
 
-void
+body - the part of the method within the curly braces that has all related statements
 
-main function
+signature - the part of the head in a method that consists of the method name and parameter list. important for overloading
 
-binary search
+void - method return type that specifiecs that the method should not return any value
 
-sequential search
+main function - the primary function in a class
 
-JavaDoc
+binary search -  Search a sorted array by repeatedly dividing the search interval in half. The direction to head is based whether the current index being evaluated is higher or lower than the input value.
 
-enhanced loop
+sequential search - each element of the array is compared to the key, in the order it appears in the array, until the desired element is found
 
-signature
+JavaDoc - Javadoc (originally cased JavaDoc) is a documentation generator created by Sun Microsystems for the Java language (now owned by Oracle Corporation) for generating API documentation in HTML format from Java source code. Can be created right in the code editor/IDE
 
-accumulator
+enhanced loop - specific format of a for loop that iterates in a forEach fashion
 
-dynamic array length
+accumulator - An accumulator is a variable that the program uses to calculate a sum or product of a series of values. Usually used in a loop where it adds onto itself
 
-println/print/String.format(String, value)
+dynamic array length - arrays in Java are set length. however, an array can be declared and have its length set later
 
-string/array length attribute - sometimes it has a ()?
+println/print/String.format(String, value) - methods to print out to the 
 
-type inference - limited ability to use var keyword since Java 10
+string/array length attribute - method that returns a number of characters/elements in a string/array. strings call this method with a parentheses, arrays do not
 
-primitive data types - also contains methods specific to the data type
+type inference - limited ability to use var keyword since Java 10. var can be used instead of a data type to set a variable, local variables only
 
-wrapper classes - contain useful methods beyond primitive data type methods
+primitive data types - the 8 most basic data types available within the Java language. : byte, short, int, long, float, double, char, or boolean. also contains methods specific to the data type
 
-Character/String/StringBuilder class type differences
+wrapper classes - Data types that contain useful methods beyond primitive data type methods. these start with a capital letter, for example Character, Integer, String, or StringBuilder
 
 4 OOP principles - Inheritance, Polymorphism, Abstraction, Encapsulation
 
-superclass & subclass/parent class & child class
+superclass & subclass/parent class & child class - an instance of a class is a subclass, and the class that the sublcass is inheriting from is the superclass
 
-super()
+super - reference to the superclass and its contents by the current subclass
 
-chain of inheritance
+chain of inheritance - Classes can be derived from classes that are derived from classes that are derived from classes, and so on, and ultimately derived from the topmost class, Object. Such a class is said to be descended from all the classes in the inheritance chain stretching back to Object. 
 
-instanceof
+instanceof - The java instanceof operator is used to test whether the object is an instance of the specified type (class or subclass or interface).
 
-interface (incl. default keyword (since java 8)) 
+interface (incl. default keyword (since java 8)) - an abstract type that is used to specify a behavior that classes must implement. They are similar to protocols. Interfaces are declared using the interface keyword, and may only contain method signature and constant declarations. One exception is the default keyword on interface members, which automatically generates any time an interface is inherited. a default member can have defined methods and variables
 
-Collections
+abstract - a non-access modifier in java applicable for classes, methods but not variables. It is used to achieve abstraction which is one of the pillar of Object Oriented Programming(OOP). Data abstraction is the process of hiding certain details and showing only essential information to the user.
 
-Hashmaps
+Collections - a group of individual objects represented as a single unit. Java provides Collection Framework which defines several classes and interfaces to represent a group of objects as a single unit.
 
-diamond operator <>
+Hashmaps - provides the basic implementation of the Map interface of Java. It stores the data in (Key, Value) pairs. To access a value one must know its key. HashMap is known as HashMap because it uses a technique called Hashing.
 
-exceptions & exception object - printStackTrace
+diamond operator <> - brings type inference to constructors that have been available with methods. With methods, type inference is implicitly done when one leaves off the explicit parameter type specification (on local variables). With instantiation, on the other hand, the diamond operator must be specified explicitly to "tell" the compiler to infer the type.
 
-try (w/ resources) & catch & finally
+exception - an unwanted or unexpected event, which occurs during the execution of a program i.e at run time, that disrupts the normal flow of the program's instructions
+
+exception object - An exception object is an instance of an exception class. It gets created and handed to the Java runtime when an exceptional event occurred that disrupted the normal flow of the application. This is called “to throw an exception” because in Java you use the keyword “throw” to hand the exception to the runtime. When a method throws an exception object, the runtime searches the call stack for a piece of code that handles it.
+
+java.lang.Throwable.printStackTrace() - method, prints this throwable and its backtrace to the standard error stream. It prints a stack trace for this Throwable object on the error output stream that is the value of the field System.err.
+
+try (w/ resources) & catch & finally - The try statement allows you to define a block of code to be tested for errors while it is being executed. The catch statement allows you to define a block of code to be executed, if an error occurs in the try block. The try and catch keywords come in pairs. The finally statement lets you execute code, after try...catch, regardless of the result
